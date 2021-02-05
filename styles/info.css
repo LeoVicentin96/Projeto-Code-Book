@@ -33,3 +33,18 @@
   text-align: justify;
   font-weight: 300;
 }
+
+@media (max-width: 900px) {
+  .section__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info {
+    justify-content: center;
+  }
+
+  .info__imagem {
+    margin-right: 0;
+  }
+}

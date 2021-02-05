@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 2rem 3rem;
   background-color: rgb(230, 230, 230);
 }
@@ -16,7 +16,12 @@
   font-size: 1.1rem;
 }
 
+.footer__list-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .footer__list-link:hover {
-  background-color: #30cdf5b7;
+  color: #19caf7cb;
   border-radius: 3px;
 }
