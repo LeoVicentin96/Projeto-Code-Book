@@ -3,13 +3,13 @@
 }
 
 .section__welcome {
-  display: flex;
   align-items: center;
-  text-align: center;
   background-image: linear-gradient(180deg, rgb(1, 117, 117), #2cc2e7);
-  justify-content: center;
-  height: calc(100vh - 90px);
   border-bottom: 3px solid rgba(255, 255, 255, 0.76);
+  display: flex;
+  height: calc(100vh - 90px);
+  justify-content: center;
+  text-align: center;
 }
 
 .title {
@@ -29,10 +29,10 @@
 }
 
 .button__dowload {
+  background-color: rgb(1, 117, 117);
   border: 2px solid white;
   border-radius: 4px;
   box-shadow: 3px 3px 3px black;
-  background-color: rgb(1, 117, 117);
   color: white;
   display: inline-block;
   font-size: 1.5rem;
