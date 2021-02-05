@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  background-color: rgb(230, 230, 230);
+}
+
+.footer__list-item {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.footer__list-link {
+  color: rgb(107, 107, 107);
+  font-size: 1.1rem;
+}
+
+.footer__list-link:hover {
+  background-color: #30cdf5b7;
+  border-radius: 3px;
+}
