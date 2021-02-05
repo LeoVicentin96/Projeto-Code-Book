@@ -1,0 +1,48 @@
+.section {
+  padding: 2rem 3rem;
+}
+
+.section__welcome {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(180deg, rgb(1, 117, 117), #2cc2e7);
+  justify-content: center;
+  height: calc(100vh - 90px);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.76);
+}
+
+.title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px rgb(44, 44, 44);
+}
+
+.title__sobre {
+  color: rgb(226, 226, 226);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
+
+.button__dowload {
+  border: 2px solid white;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px black;
+  background-color: rgb(1, 117, 117);
+  color: white;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  opacity: 0.8;
+  padding: 1rem 4rem;
+}
+
+.button__dowload:hover {
+  background-color: #2cc2e7;
+  transform: scale(1.1);
+  transition: all 100ms ease-in-out;
+}
