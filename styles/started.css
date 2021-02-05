@@ -1,0 +1,28 @@
+.section__started {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: 2px solid rgb(1, 117, 117);
+  color: white;
+  background-image: linear-gradient(180deg, rgb(1, 117, 117), #2cc2e7);
+}
+
+.title__started {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.started__texto {
+  font-size: 1.25rem;
+}
+
+.started__list-item {
+  margin: 0.5rem 0;
+  font-weight: 200;
+  list-style: decimal;
+}
+
+.started__link {
+  color: white;
+  text-decoration: underline;
+}
