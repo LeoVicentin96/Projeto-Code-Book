@@ -1,0 +1,26 @@
+.componentes {
+  background-color: #2cc2e7;
+  height: calc(100vh - 145px);
+  overflow-y: auto;
+  position: fixed;
+  width: 20%;
+}
+
+.componentes__list-title {
+  border-bottom: 1px solid rgba(105, 105, 105, 0.87);
+  color: rgb(31, 31, 31);
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+}
+
+.componentes__list-link {
+  border-bottom: 1px solid rgba(105, 105, 105, 0.87);
+  color: #ececec;
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}

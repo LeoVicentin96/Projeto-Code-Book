@@ -1,0 +1,25 @@
+.documentacao {
+  background-color: rgba(240, 240, 240, 0.863);
+  height: 77vh;
+  margin-left: 20%;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.documentacao__title {
+  border-bottom: 1px solid #303030;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 2px rgb(119, 119, 119);
+}
+
+.documentacao__subtitulo {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.documentacao__descricao {
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+}
