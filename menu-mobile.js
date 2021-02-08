@@ -15,3 +15,7 @@ btnMenuClose.addEventListener('click', function(){
     
     
 })
+
+menu.addEventListener('click', function(){
+    menu.classList.remove('menu__open')
+})
