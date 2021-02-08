@@ -1,3 +1,11 @@
+.menu__hamburguer-fechar {
+  display: none;
+}
+
+.menu__hamburger {
+  display: none;
+}
+
 .componentes {
   background-color: #2cc2e7;
   height: calc(100vh - 145px);
@@ -6,8 +14,11 @@
   width: 20%;
 }
 
-.componentes__list-title {
+.componentes__list-item {
   border-bottom: 1px solid rgba(105, 105, 105, 0.87);
+}
+
+.componentes__list-title {
   color: rgb(31, 31, 31);
   display: block;
   font-size: 1rem;
@@ -17,10 +28,51 @@
 }
 
 .componentes__list-link {
-  border-bottom: 1px solid rgba(105, 105, 105, 0.87);
   color: #ececec;
   display: block;
   font-weight: 600;
   font-size: 0.9rem;
   padding: 0.5rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .componentes {
+    text-align: center;
+    transform: translateX(-100%);
+  }
+
+  .menu__hamburger {
+    font-size: 2rem;
+    color: white;
+    background-color: #2cc2e7;
+    padding: 0.5rem 0;
+    display: block;
+    text-align: center;
+  }
+
+  .menu__hamburguer-fechar {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    display: block;
+  }
+
+  .menu__open {
+    transform: translateX(0);
+    transition: 300ms linear;
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  .componentes__list-title {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .componentes__list-link {
+    font-size: 1rem;
+  }
 }

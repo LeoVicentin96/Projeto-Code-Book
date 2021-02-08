@@ -20,6 +20,12 @@
 }
 
 .documentacao__descricao {
-  font-weight: 200;
   color: rgb(0, 0, 0);
+  font-weight: 200;
+}
+
+@media (max-width: 768px) {
+  .documentacao {
+    margin: 0;
+  }
 }
