@@ -1,3 +1,5 @@
+/*Pagina com a documentação*/
+
 .documentacao {
   background-color: rgba(240, 240, 240, 0.863);
   height: 77vh;
@@ -23,6 +25,8 @@
   color: rgb(0, 0, 0);
   font-weight: 200;
 }
+
+/*medias queries*/
 
 @media (max-width: 768px) {
   .documentacao {

@@ -1,10 +1,4 @@
-.menu__hamburguer-fechar {
-  display: none;
-}
-
-.menu__hamburger {
-  display: none;
-}
+/*menu com componentes da pagina*/
 
 .componentes {
   background-color: #2cc2e7;
@@ -34,6 +28,18 @@
   font-size: 0.9rem;
   padding: 0.5rem 1rem;
 }
+
+/*menu mobile componentes*/
+
+.menu__hamburguer-fechar {
+  display: none;
+}
+
+.menu__hamburger {
+  display: none;
+}
+
+/*medias queries componentes*/
 
 @media (max-width: 768px) {
   .componentes {
